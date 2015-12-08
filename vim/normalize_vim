@@ -1,0 +1,20 @@
+20Gf <espace>10xx           // 20G place le curseur au debut des mots la ligne 20
+							// f<espace> trouve le debut des espaces
+							// 10x enleve les 10 caracteres espaces
+							// x replace le curseur a la fin de la ligne
+
+
+3kP                         // 3k le curseur saute de 3 lignes au-dessus et se place a la fin de la ligne
+							// P rajoute un espace en l'endroit ou se trouve le curseur
+
+3GwP 						// 3G place le curseur au debut la ligne 3
+							// w place le curseur a la fin du mot
+							// P rajoute un espace en l'endroit ou se trouve le curseur
+5G3dd3kp					// 5G place le curseur au debut la ligne 5
+							// 3dd coupe 3 lignes
+							// 3k le curseur saute de 3 lignes au-dessus et se place a la fin de la ligne
+							// p paste a la ligne
+
+gg=G : indentation generale
+
+f1 : pour le header   ou <fn> <f1> pour les macs preconfigures
